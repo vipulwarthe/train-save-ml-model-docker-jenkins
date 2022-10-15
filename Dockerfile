@@ -5,4 +5,4 @@ RUN mkdir /root/ml/
 COPY task.py  /root/ml/
 COPY dataset.csv /root/ml/
 WORKDIR /root/ml
-#CMD python3 task.py
+CMD python3 task.py
