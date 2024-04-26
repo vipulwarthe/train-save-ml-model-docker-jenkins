@@ -4,7 +4,7 @@ pipeline {
         // Step 1
         stage('SCM') {
                 steps {
-                    git 'https://github.com/webdevprashant/train-save-ml-model-docker-jenkins.git'
+                    git 'https://github.com/vipulwarthe/train-save-ml-model-docker-jenkins.git'
                 }        
         }
         // Step 2
